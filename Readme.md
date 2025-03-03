@@ -69,7 +69,7 @@ Below are the detailed classification reports comparing our fine-tuned model wit
 
 </td></tr> </table>
 
-Our model achieves a significant improvement in precision for many diseases. For instance, the precision for *Effusion* and *Infiltration* is higher in our model compared to the X-Ray Vision model, demonstrating the benefits of fine-tuning on this specific dataset.
+Our model achieves a significant improvement in precision all across the board. The recall though, is lower. However, this is a natural trade off and the recall can be improved (at the cost of precision) using the Precision-Recall Curve. This analysis is done in the model evaluation file.
 
 ## Additional Details
 - **Training Details:**  
