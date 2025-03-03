@@ -2,7 +2,7 @@
 
 This repository contains a convolutional neural network based on **DenseNet121**, where all layers except the last block have been frozen and retrained on the **NIH Chest X-ray dataset**.
 
-## 🚀 Project Overview
+## Project Overview
 - **Model:** DenseNet121 (pretrained on ImageNet)
 - **Fine-tuning:** Last block trained, earlier layers frozen
 - **Dataset:** NIH Chest X-ray Dataset
